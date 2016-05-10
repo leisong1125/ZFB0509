@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F6AE3BA1CE1BFB300A7C420 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F6AE3B91CE1BFB300A7C420 /* AlipaySDK.framework */; };
 		2FB1965C1CE05D2C002185B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB1965B1CE05D2C002185B8 /* main.m */; };
 		2FB1965F1CE05D2C002185B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB1965E1CE05D2C002185B8 /* AppDelegate.m */; };
 		2FB196621CE05D2C002185B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB196611CE05D2C002185B8 /* ViewController.m */; };
@@ -16,7 +17,6 @@
 		2FB196751CE05D2C002185B8 /* ZFB0509Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB196741CE05D2C002185B8 /* ZFB0509Tests.m */; };
 		2FB196801CE05D2C002185B8 /* ZFB0509UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB1967F1CE05D2C002185B8 /* ZFB0509UITests.m */; };
 		2FB1968F1CE05D6A002185B8 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2FB1968D1CE05D69002185B8 /* AlipaySDK.bundle */; };
-		2FB196901CE05D6A002185B8 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB1968E1CE05D69002185B8 /* AlipaySDK.framework */; };
 		2FB196921CE05DAB002185B8 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB196911CE05DAB002185B8 /* libc++.tbd */; };
 		2FB196941CE05DB6002185B8 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB196931CE05DB6002185B8 /* libz.tbd */; };
 		2FB196961CE05DC6002185B8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB196951CE05DC6002185B8 /* SystemConfiguration.framework */; };
@@ -61,6 +61,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F6AE3B91CE1BFB300A7C420 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = ZFB0509/AlipaySDK.framework; sourceTree = "<group>"; };
 		2FB196571CE05D2C002185B8 /* ZFB0509.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFB0509.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FB1965B1CE05D2C002185B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2FB1965D1CE05D2C002185B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,7 +79,6 @@
 		2FB1967F1CE05D2C002185B8 /* ZFB0509UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFB0509UITests.m; sourceTree = "<group>"; };
 		2FB196811CE05D2C002185B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FB1968D1CE05D69002185B8 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
-		2FB1968E1CE05D69002185B8 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
 		2FB196911CE05DAB002185B8 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		2FB196931CE05DB6002185B8 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		2FB196951CE05DC6002185B8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -196,6 +196,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F6AE3BA1CE1BFB300A7C420 /* AlipaySDK.framework in Frameworks */,
 				2FB197171CE084FF002185B8 /* libcrypto.a in Frameworks */,
 				2FB197181CE084FF002185B8 /* libssl.a in Frameworks */,
 				2FB196A61CE05E23002185B8 /* CoreMotion.framework in Frameworks */,
@@ -209,7 +210,6 @@
 				2FB196961CE05DC6002185B8 /* SystemConfiguration.framework in Frameworks */,
 				2FB196941CE05DB6002185B8 /* libz.tbd in Frameworks */,
 				2FB196921CE05DAB002185B8 /* libc++.tbd in Frameworks */,
-				2FB196901CE05D6A002185B8 /* AlipaySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +233,7 @@
 		2FB1964E1CE05D2C002185B8 = {
 			isa = PBXGroup;
 			children = (
+				2F6AE3B91CE1BFB300A7C420 /* AlipaySDK.framework */,
 				2FB197151CE084FF002185B8 /* libcrypto.a */,
 				2FB197161CE084FF002185B8 /* libssl.a */,
 				2FB196A51CE05E23002185B8 /* CoreMotion.framework */,
@@ -274,7 +275,6 @@
 				2FB196F41CE06F3F002185B8 /* Order.m */,
 				2FB196F51CE06F3F002185B8 /* Util */,
 				2FB1968D1CE05D69002185B8 /* AlipaySDK.bundle */,
-				2FB1968E1CE05D69002185B8 /* AlipaySDK.framework */,
 				2FB1965D1CE05D2C002185B8 /* AppDelegate.h */,
 				2FB1965E1CE05D2C002185B8 /* AppDelegate.m */,
 				2FB196601CE05D2C002185B8 /* ViewController.h */,
@@ -810,6 +810,7 @@
 				2FB196861CE05D2C002185B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FB196871CE05D2C002185B8 /* Build configuration list for PBXNativeTarget "ZFB0509Tests" */ = {
 			isa = XCConfigurationList;
@@ -818,6 +819,7 @@
 				2FB196891CE05D2C002185B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FB1968A1CE05D2C002185B8 /* Build configuration list for PBXNativeTarget "ZFB0509UITests" */ = {
 			isa = XCConfigurationList;
@@ -826,6 +828,7 @@
 				2FB1968C1CE05D2C002185B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
