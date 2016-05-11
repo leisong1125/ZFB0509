@@ -96,6 +96,23 @@
     }
 }
 
+
+
+// int 是4个字节 byte是1 个字节 如何只取到int最高位的那个字节 转成byte
+
+- (void)IntToByte:(int)length buffer:(uint8_t *)buf {
+    //return (uint8_t *)(length &0xFF>>24);
+    buf[3] = ((length >> 24) &0xFF);
+    buf[2] = ((length >> 16) &0xFF);
+    buf[1] = ((length >> 8) &0xFF);
+    buf[0] = (length  &0xFF);
+    
+}
+
+
+
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
